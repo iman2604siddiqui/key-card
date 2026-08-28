@@ -173,3 +173,4 @@ app.get('/api/escalations', auth, requireRole('hr_admin', 'it_support'), async (
 
 await fs.mkdir(storageDir, { recursive: true });
 app.listen(port, () => console.log(`Keycard API listening on http://localhost:${port}`));
+app.listen(PORT, () =>{} )
